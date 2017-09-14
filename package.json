@@ -1,0 +1,17 @@
+{
+  "name": "coba-mosca",
+  "version": "1.0.0",
+  "description": "Percobaan Mosca MQTT",
+  "main": "mosca.js",
+  "dependencies": {
+    "mosca": "^2.5.2",
+    "mqtt": "^2.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
