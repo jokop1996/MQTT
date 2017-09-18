@@ -1,11 +1,7 @@
 var http     = require('http')
   , httpServ = http.createServer(function(request,response) {
 
-    response.writeHead(200);
-
-    response.write('Server Running');
-
-    response.end();
+    console.log("Server is Running");
 
   })
   , mosca    = require('mosca')
