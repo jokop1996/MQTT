@@ -1,5 +1,5 @@
 var http     = require('http')
-  , httpServ = http.createServer();
+  , httpServ = http.createServer()
   , mosca    = require('mosca')
   , mqttServ = new mosca.Server({});
 
