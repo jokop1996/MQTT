@@ -1,9 +1,9 @@
 var mosca = require('mosca')
  
 var settings = {
-  port: 1883
+  port: 8883
 };
- 
+ console.log('Hallo');
 //here we start mosca
 var server = new mosca.Server(settings);
 server.on('ready', setup);

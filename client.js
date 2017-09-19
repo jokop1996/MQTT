@@ -1,8 +1,10 @@
 var mqtt = require('mqtt')
-var client  = mqtt.connect('mqtt://192.168.1.106:1883')
+var client  = mqtt.connect('mqtt://e-clinic.azurewebsites.net:1883')
 
 client.on('connect', function () {
   // client.subscribe('testing')
+
+  console.log('Konek');
   
   var data = {
   	'id_healbox' : 123,
