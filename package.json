@@ -1,5 +1,5 @@
 {
-  "name": "coba-mosca",
+  "name": "MQTT",
   "version": "1.0.0",
   "description": "Percobaan Mosca MQTT",
   "main": "mosca.js",
