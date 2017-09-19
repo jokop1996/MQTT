@@ -1,9 +1,6 @@
 {
   "name": "comradestes",
   "version": "1.0.0",
-  "engines": {
-    "node": "6.10.3"
-  },
   "private": true,
   "description": "Percobaan Mosca MQTT",
   "dependencies": {
