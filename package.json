@@ -1,14 +1,14 @@
 {
   "name": "MQTT",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.3"
+  },
+  "private": true,
   "description": "Percobaan Mosca MQTT",
-  "main": "mosca.js",
   "dependencies": {
     "mosca": "^2.5.2",
     "mqtt": "^2.12.1"
-  },
-  "engines": {
-    "node": "6.11.3"
   },
   "devDependencies": {},
   "scripts": {
